@@ -19,7 +19,9 @@
   },
   "homepage": "http://jdavyds.github.io/shopping_site",
   "scripts": {
-    "start": "node server/server.js",
+    "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

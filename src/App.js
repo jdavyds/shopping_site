@@ -69,8 +69,8 @@ function App() {
         handleDecrease={handleDecrease}
         handleCheckOut={handleCheckOut}
          />
-      <Switch>
         <Route exact path="/" component={Home} />
+      <Switch>
         <Route exact path="/shop"
         render={() => <Shop 
           total={total} 
