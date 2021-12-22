@@ -70,7 +70,7 @@ function App() {
         handleCheckOut={handleCheckOut}
          />
       <Switch>
-        <Route exact path="/" component={Home} />
+        <Route path="/" component={Home} />
         <Route exact path="/shop"
         render={() => <Shop 
           total={total} 
