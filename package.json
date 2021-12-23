@@ -1,6 +1,6 @@
 {
   "name": "shopping_site",
-  "homepage": "http://jdavyds.github.io/shopping_site",
+  "homepage": "https://jdavyds.github.io/shopping_site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,6 @@
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
     "@types/uniqid": "^5.3.1",
-    "react-router-hash-history": "git+https://github.com/ymzuiku/react-router-hash-history.git",
     "express": "^4.17.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",

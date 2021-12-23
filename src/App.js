@@ -1,6 +1,6 @@
 import './App.css';
 import { useState } from 'react';
-import { BrowserRouter, Switch, Route} from "react-router-dom";
+import { Switch, Route} from "react-router-dom";
 import Home from './components/home';
 import Shop from './components/shop';
 import Cart from './components/cart';
@@ -58,7 +58,6 @@ function App() {
     }
   return (
     <div className="App">
-       <BrowserRouter>
         <Navs total={total} toggler={toggler}/>
         <Cart show={toggle ? 'cart' : 'hide'} 
         toggler={toggler} 
@@ -79,7 +78,6 @@ function App() {
            />}
         />
       </Switch>
-    </BrowserRouter>
     </div>
   );
 }
